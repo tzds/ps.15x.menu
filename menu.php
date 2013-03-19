@@ -8,10 +8,11 @@ class Menu extends Module
 {
 	public function __construct()
 	{
-		$this->name			= 'menu';
-		$this->tab			= 'front_office_features';
-		$this->version		= 1.0;
-		$this->author		= 'Julien Breux';
+		$this->name				= 'menu';
+		$this->tab				= 'front_office_features';
+		$this->version			= 1.0;
+		$ps_versions_compliancy	= array('min' => '1.5', 'max' => '1.6');
+		$this->author			= 'Julien Breux';
 
 		parent::__construct();
 
