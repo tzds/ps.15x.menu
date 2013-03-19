@@ -6,6 +6,9 @@
  */
 class Menu extends Module
 {
+	/**
+	 * Constructor
+	 */
 	public function __construct()
 	{
 		$this->name				= 'menu';
