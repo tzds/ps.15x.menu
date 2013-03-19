@@ -5,6 +5,7 @@
  * @license Read LICENSE file
  */
 
+// Require files
 require_once dirname(__FILE__).'/classes/MenuSetup.php';
 
 class Menu extends Module
